@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.align-item{
+    align-items: center;
+}
+.flex-direction{
+    flex-direction: column;
+}
+
+.section_height{
+        
+        height: 85vh;
+}
+/* .flex-direction-reverce{
+   flex-direction: column-reverse;
+} */
+
+.justify-content-ar{
+    justify-content: space-around;
+}

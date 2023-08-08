@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#7eb6c9;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background: rgb(4,3,31);
+    background: linear-gradient(90deg, rgba(4,3,31,1) 56%, rgba(0,212,255,1) 100%);
+
+}
+
+.navbar>h1{
+    width: 50%;
+    padding-left: 20px;
+    color: crimson;
+    font-weight: bolder;
+}
+.inside_nav{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.sec1_container{
+    width: 100%;
+    /* height: 88%; */
+
+    
+   
+    margin-top:60px;
+}
+
+.left_first_s{
+    width: 60%;
+    padding: 100px;
+}
+.right_first_s{
+    height: 100%;
+    width: 40%;
+}
+.right_first_s img{
+    height: 350px;
+    border-radius: 140px;
+    box-shadow: 5px 5px 5px #959899;
+}
+hr{
+    width: 80vw;
+    
+   margin: 0px auto ;
+}
+
+
+.inside_nav li {
+    list-style: none;
+}
+
+.inside_nav li  a{
+    text-decoration: none;
+    color: white;
+}
+.left_second_s{
+    width: 30%;
+}
+.right_first_s{
+    width: 30%;
+}
+.right_first_s li {
+    width: 100%;
+}
+.skill_content{
+    height: 80%;
+}
+.skill_content ul li h4 {
+    margin: 20px ;
+}
+
+.project_sec{
+    width: 85%;
+    height: 80%;
+}
+.project_sec img{
+     height: 280px;
+     width: 400px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+}
+.project_sec h4{
+    margin: 10px;
+}
+
+
+.resume_download{
+    font-size: 35px;
+    height: 80px;
+    width: 350px;
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 40px;
+    
+}
+.resume_open_btn{
+    width: 50%;
+}
+.resumepic{
+width: 50%;
+}
+.resumepic img {
+    height: 400px;
+    box-shadow: 5px 5px 5px  white;
+}
+
+.resume_download a {
+    text-decoration: none;
+    color: red;
+}
+.contact_table{
+    height: 70%;
+}
+.contact_header{
+    height: 20%;
+}
+
+.contact_table table{
+  border: 2px solid black;
+  height: 200px;
+  width: 60%;
+}
+footer{
+ height: 40px;
+}
